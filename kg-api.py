@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
-Knowledge Graph API https://developers.google.com/knowledge-graph/
+Knowledge Graph API
+https://developers.google.com/knowledge-graph/
 
 """
 
