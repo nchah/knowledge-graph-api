@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """
-Knowledge Graph API
-https://developers.google.com/knowledge-graph/
+Knowledge Graph API https://developers.google.com/knowledge-graph/
 
 """
 
@@ -13,25 +12,23 @@ import urllib
 # Creating the timestamp for the output filename
 
 # The API Key and Service URL
-api_key = open("", "r")
-service_url = ""
-
-
-"""Example of Python client calling Knowledge Graph Search API."""
-
 api_key = open('.api_key').read()
-query = 'Taylor Swift'
 service_url = 'https://kgsearch.googleapis.com/v1/entities:search'
+
+query = ''
 params = {
     'query': query,
     'limit': 10,
     'indent': True,
     'key': api_key,
-}
-url = service_url + '?' + urllib.urlencode(params)
+    }
+
+url = service_url + '?' + urllib.urlencode(params)  # TODO: use requests
 response = json.loads(urllib.urlopen(url).read())
 for element in response['itemListElement']:
     print(element['result']['name'] + ' (' + str(element['resultScore']) + ')')
+
+
 
 """
 Sample result: https://kgsearch.googleapis.com/v1/entities:search?query=taylor+swift&key=[]&limit=1&indent=True
