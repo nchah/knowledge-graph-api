@@ -11,6 +11,7 @@ import urllib
 
 # Creating the timestamp for the output filename
 
+
 # The API Key and Service URL
 api_key = open('.api_key').read()
 service_url = 'https://kgsearch.googleapis.com/v1/entities:search'
