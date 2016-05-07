@@ -1,5 +1,9 @@
 # knowledge-graph-api
 
+## Freebase
+
+Further background on Freebase and the deprecated Freebase APIs is available in my [freebase-mql](https://github.com/nchah/freebase-mql) repository. The KG API is a successor to the functionality once offered by the Freebase APIs.
+
 ## Google Knowledge Graph
 
 
