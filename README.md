@@ -6,6 +6,9 @@ Further background on Freebase and the deprecated Freebase APIs is available in 
 
 ## Google Knowledge Graph
 
+Google's Knowledge Graph is an internal knowledge base of linked data that draws from a wide range of sources for its data. The aforementioned Freebase database was one of the data sources. 
+
+The Knowledge Graph allows the search engine to serve up the rich Knowledge Cards that take up the right side of many notable search results.
 
 
 ## Sources
@@ -30,6 +33,7 @@ Many Freebase and Knowledge Graph related updates are posted on the once active 
 **Knowledge Graph**
 
 - https://en.wikipedia.org/wiki/Knowledge_Graph
+- https://googleblog.blogspot.ca/2012/05/introducing-knowledge-graph-things-not.html (May 16, 2012 official KG announcement)
 - https://www.google.com/intl/bn/insidesearch/features/search/knowledge.html (Google Inside Search explaining the Knowledge Graph)
 - http://searchengineland.com/laymans-visual-guide-googles-knowledge-graph-search-api-241935 (Search Engine Land provides a good tutorial)
 
